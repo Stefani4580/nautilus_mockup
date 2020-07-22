@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
+import matches from "./assets/matches.png"
 
 function App() {
   return (
-    <div className="App">
+    <div class="container-fluid" className="App">
+      <img src={matches} />
     </div>
   );
 }
