@@ -5,7 +5,7 @@ import matches from "./assets/matches.png"
 function App() {
   return (
     <div class="container-fluid" className="App">
-      <img src={matches} />
+      <img src={matches} alt="" />
     </div>
   );
 }
