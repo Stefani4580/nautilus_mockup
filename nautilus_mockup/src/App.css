@@ -16,9 +16,20 @@
   height: 500px;
   width: 100%;
 }
+
 .navbar{
   display: flex;
   justify-content: center;
   font-weight: bolder;
   font-size: small;
+}
+
+.ideas{
+  height: 200px;
+  width: 100%;
+  opacity: 70%;
+}
+
+.section-two-text{
+  color: gold;
 }

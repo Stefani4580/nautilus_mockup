@@ -85,6 +85,18 @@ function App() {
           </Navbar.Collapse>
         </Navbar>
       </Row>
+      <Row>
+      <Col>
+          <Carousel.Caption>
+            <div className="section-two-text">
+              <h6>THE NAUTILUS SPOTLIGHT</h6>
+              <h1>WHY THE LAWS OF PHYSICIS ARE INEVITABLE</h1>
+              <Button variant="light" size="sm">READ NOW</Button>
+            </div>
+          </Carousel.Caption>
+          <Image className="ideas" src={require("./assets/ideas.jpg")} />
+        </Col>     
+      </Row>
     </Container>
   );
 }
