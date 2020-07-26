@@ -44,28 +44,9 @@ function App() {
               <Nav.Link href="#newsletter">NEWSLETTER</Nav.Link>
               <Nav.Link href="https://facebook.com"><i class="fab fa-facebook-f"></i></Nav.Link>
               <Nav.Link href="https://twitter.com"><i class="fab fa-twitter"></i></Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link href="#login">LOGIN</Nav.Link>
             </Nav>
-            <Form inline>
-              <FormControl
-                type="text"
-                placeholder="Search"
-                className="mr-sm-2"
-              />
-              <Button variant="outline-success">Search</Button>
-            </Form>
+              <Button variant="outline-success">SUBSCRIBE</Button>
           </Navbar.Collapse>
         </Navbar>
       </Row>
