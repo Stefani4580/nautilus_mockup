@@ -1,7 +1,18 @@
 .App{
-  /* background: url("./assets/matches.png"); */
-  background-size: cover;
-  height: 100vh;
   font-family: 'Source Sans Pro', sans-serif;
+}
+.title{
+  /* background: url("./assets/matches.png"); */
+  /* background-size: cover; */
+  text-align: center;
+  /* height: 500px; */
+}
 
+/* .title-text{
+  position: relative;
+  top: 50%;
+} */
+.matches{
+  height: 500px;
+  width: 100%;
 }
